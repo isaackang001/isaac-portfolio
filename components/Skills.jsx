@@ -18,7 +18,7 @@ const Skills = () => {
       id="skills"
     >
       {/* Might need to change this to the subheading */}
-      <div className="w-full border-2 border-solid border-white rounded-lg bg-blueGrey mb-0 py-16">
+      <div className="w-full border-2 border-solid border-white rounded-lg bg-blueGrey mb-0 py-16 lg:max-w-[780px] xl:max-w-[1200px]">
         <div className="flex justify-center items-center flex-col">
           <h1 className="text-redish font-bold text-7xl">Skills</h1>
           <div className="w-[175px] h-2 bg-white my-5"></div>

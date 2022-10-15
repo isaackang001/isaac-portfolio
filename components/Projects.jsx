@@ -12,15 +12,15 @@ const Projects = () => {
       className="bg-mirage flex flex-col justify-center items-center py-8 px-12 md:py-16 md:px-24"
       id="projects"
     >
-      <div className="w-full border-2 border-solid border-white rounded-lg bg-blueGrey mb-0 py-16">
+      <div className="w-full border-2 border-solid border-white rounded-lg bg-blueGrey mb-0 py-16 xl:max-w-[1500px]">
         <div className="flex justify-center items-center flex-col">
           <h1 className="text-redish font-bold text-7xl">Projects</h1>
           <div className="w-[270px] h-2 bg-white my-5"></div>
         </div>
 
-        <div className="grid grid-cols-1 justify-items-center items-center gap-4 pt-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 justify-items-center items-center gap-4 pt-8 md:grid-cols-2 xl:grid-cols-3">
           {/* Escape Room */}
-          <div className="grid gap-4 grid-rows-work p-4 bg-mirage rounded-lg w-[250px] lg:w-[300px] xl:w-[350px]">
+          <div className="grid gap-4 grid-rows-work p-4 bg-mirage rounded-lg w-[250px] h-full lg:w-[300px] xl:w-[350px]">
             <div className="flex justify-center items-center">
               <Image
                 src={escape}
@@ -32,7 +32,8 @@ const Projects = () => {
             </div>
             <div className="bg-blueGrey text-white rounded-sm flex justify-center items-center w-full pl-2">
               <p className="font-normal text-base">
-                3D Virtual Reality Game with tasks, created utilizing Unity3D
+                3D Virtual Reality Game simulating an Escape room with tasks,
+                created utilizing Unity3D.
               </p>
             </div>
             <div className="rounded cursor-pointer bg-redish h-[50px] flex justify-center items-center">
@@ -49,14 +50,14 @@ const Projects = () => {
           </div>
 
           {/* DTF */}
-          <div className="grid gap-4 grid-rows-work p-4 bg-mirage rounded-lg w-[250px] lg:w-[300px] xl:w-[350px]">
+          <div className="grid gap-4 grid-rows-work p-4 bg-mirage rounded-lg w-[250px] h-full lg:w-[300px] xl:w-[350px]">
             <div className="flex justify-center items-center">
               <Image src={DTF} alt="DTF" width="250" height="250" />
             </div>
             <div className="bg-blueGrey text-white rounded-sm flex justify-center items-center w-full pl-2">
               <p className="font-normal text-base">
                 3D Space Exploration Game with 2D minigames created utilizing
-                Unity.
+                Unity3D.
               </p>
             </div>
             <div className="rounded cursor-pointer bg-redish h-[50px] flex justify-center items-center">
@@ -73,7 +74,7 @@ const Projects = () => {
           </div>
 
           {/* Geiricht */}
-          <div className="grid gap-4 grid-rows-work p-4 bg-mirage rounded-lg w-[250px] lg:w-[300px] xl:w-[350px]">
+          <div className="grid gap-4 grid-rows-work p-4 bg-mirage rounded-lg w-[250px] h-full lg:w-[300px] xl:w-[350px]">
             <div className="flex justify-center items-center">
               <Image
                 src={restaurant}
