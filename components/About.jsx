@@ -32,7 +32,7 @@ const About = () => {
         <div className="relative w-full h-fit">
           <Image
             src="/../public/assets/profile.png"
-            alt="/"
+            alt="Profile"
             width="250"
             height="250"
             layout="responsive"
