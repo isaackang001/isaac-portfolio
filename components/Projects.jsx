@@ -2,6 +2,9 @@ import React from "react";
 import Image from "next/image";
 
 import { SiGithub } from "react-icons/si";
+import escape from "../public/static/escape.png";
+import DTF from "../public/static/DTF.png";
+import restaurant from "../public/static/restaurant.png";
 
 const Projects = () => {
   return (
@@ -20,7 +23,7 @@ const Projects = () => {
           <div className="grid gap-4 grid-rows-work p-4 bg-mirage rounded-lg w-[250px] lg:w-[300px] xl:w-[350px]">
             <div className="flex justify-center items-center">
               <Image
-                src="/../public/static/escape.png"
+                src={escape}
                 alt="escape_room"
                 width="250"
                 height="250"
@@ -48,12 +51,7 @@ const Projects = () => {
           {/* DTF */}
           <div className="grid gap-4 grid-rows-work p-4 bg-mirage rounded-lg w-[250px] lg:w-[300px] xl:w-[350px]">
             <div className="flex justify-center items-center">
-              <Image
-                src="/../public/static/DTF.png"
-                alt="DTF"
-                width="250"
-                height="250"
-              />
+              <Image src={DTF} alt="DTF" width="250" height="250" />
             </div>
             <div className="bg-blueGrey text-white rounded-sm flex justify-center items-center w-full pl-2">
               <p className="font-normal text-base">
@@ -78,7 +76,7 @@ const Projects = () => {
           <div className="grid gap-4 grid-rows-work p-4 bg-mirage rounded-lg w-[250px] lg:w-[300px] xl:w-[350px]">
             <div className="flex justify-center items-center">
               <Image
-                src="/../public/static/restaurant.png"
+                src={restaurant}
                 alt="restaurant"
                 width="250"
                 height="250"
