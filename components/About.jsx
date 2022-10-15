@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
 
+import profile from "../public/static/profile.png";
+
 const About = () => {
   return (
     <section
@@ -31,7 +33,7 @@ const About = () => {
       <div className="flex-1 w-full flex justify-center items-start py-8 md:ml-8 max-w-[400px]">
         <div className="relative w-full h-fit">
           <Image
-            src="/../public/assets/profile.png"
+            src={profile}
             alt="Profile"
             width="250"
             height="250"

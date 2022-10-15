@@ -20,7 +20,7 @@ const Projects = () => {
           <div className="grid gap-4 grid-rows-work p-4 bg-mirage rounded-lg w-[250px] lg:w-[300px] xl:w-[350px]">
             <div className="flex justify-center items-center">
               <Image
-                src="/../public/assets/escape.png"
+                src="/../public/static/escape.png"
                 alt="escape_room"
                 width="250"
                 height="250"
@@ -49,7 +49,7 @@ const Projects = () => {
           <div className="grid gap-4 grid-rows-work p-4 bg-mirage rounded-lg w-[250px] lg:w-[300px] xl:w-[350px]">
             <div className="flex justify-center items-center">
               <Image
-                src="/../public/assets/DTF.png"
+                src="/../public/static/DTF.png"
                 alt="DTF"
                 width="250"
                 height="250"
@@ -78,7 +78,7 @@ const Projects = () => {
           <div className="grid gap-4 grid-rows-work p-4 bg-mirage rounded-lg w-[250px] lg:w-[300px] xl:w-[350px]">
             <div className="flex justify-center items-center">
               <Image
-                src="/../public/assets/restaurant.png"
+                src="/../public/static/restaurant.png"
                 alt="restaurant"
                 width="250"
                 height="250"
