@@ -22,10 +22,15 @@ const About = () => {
           middle school. Since the class was an elective provided by my school,
           I had no meaningful expectations. Astonishingly, the class set the
           foundation for the goals I have today. Being able to create a finished
-          product from nothing but a block of wood both peaked my interests and
+          product from nothing but a block of wood both piqued my interest and
           fed my desire to learn. Much like woodshop, the ability to build
           remarkable things to solve real problems through coding is what fuels
           my passion for technology.
+        </p>
+        <p className="text-white font-normal text-base mb-5">
+          I have knowledge of creating web applications using React.js, Node.js,
+          Next.js, HTML5, CSS, and JavaScript. On the side, I have knowledge of
+          game development using Unity and C.
         </p>
       </div>
 
