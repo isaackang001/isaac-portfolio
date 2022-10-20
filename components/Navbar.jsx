@@ -34,32 +34,32 @@ const Navbar = () => {
         {/* List/Links/etc. */}
         <div>
           <ul className="hidden md:flex">
-            <Link href="#home">
+            <Link href="#home" scroll={false}>
               <li className="ml-10 text-sm text-white uppercase hover:border-b">
                 Home
               </li>
             </Link>
-            <Link href="#about">
+            <Link href="#about" scroll={false}>
               <li className="ml-10 text-sm text-white uppercase hover:border-b">
                 About
               </li>
             </Link>
-            <Link href="#skills">
+            <Link href="#skills" scroll={false}>
               <li className="ml-10 text-sm text-white uppercase hover:border-b">
                 Skills
               </li>
             </Link>
-            <Link href="#tools">
+            <Link href="#tools" scroll={false}>
               <li className="ml-10 text-sm text-white uppercase hover:border-b">
                 Tools
               </li>
             </Link>
-            <Link href="#projects">
+            <Link href="#projects" scroll={false}>
               <li className="ml-10 text-sm text-white uppercase hover:border-b">
                 Projects
               </li>
             </Link>
-            <Link href="#contact">
+            <Link href="#contact" scroll={false}>
               <li className="ml-10 text-sm text-white uppercase hover:border-b">
                 Contact
               </li>
@@ -122,22 +122,22 @@ const Navbar = () => {
           {/* Hamburger Menu List */}
           <div className="py-4 flex flex-col">
             <ul className="uppercase">
-              <Link href="#home">
+              <Link href="#home" scroll={false}>
                 <li className="py-4 text-sm text-white">Home</li>
               </Link>
-              <Link href="#about">
+              <Link href="#about" scroll={false}>
                 <li className="py-4 text-sm text-white">About</li>
               </Link>
-              <Link href="#skills">
+              <Link href="#skills" scroll={false}>
                 <li className="py-4 text-sm text-white">Skills</li>
               </Link>
-              <Link href="#tools">
+              <Link href="#tools" scroll={false}>
                 <li className="py-4 text-sm text-white">Tools</li>
               </Link>
-              <Link href="#projects">
+              <Link href="#projects" scroll={false}>
                 <li className="py-4 text-sm text-white">Projects</li>
               </Link>
-              <Link href="#contact">
+              <Link href="#contact" scroll={false}>
                 <li className="py-4 text-sm text-white">Contact</li>
               </Link>
             </ul>
