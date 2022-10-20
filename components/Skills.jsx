@@ -26,7 +26,7 @@ const Skills = () => {
 
         <div className="w-full flex justify-center items-center px-2 py-8">
           <div className="grid grid-cols-2 gap-20 md:grid-cols-3 lg:grid-cols-4">
-            <div className="flex justify-center items-center flex-col border-2 border-solid border-white rounded-lg pt-2 max-w-[200px] bg-mirage">
+            <div className="flex justify-center items-center flex-col border-2 border-solid border-white rounded-lg pt-2 max-w-[250px] bg-mirage">
               <svg width="0" height="0">
                 <linearGradient
                   id="blue-gradient"
@@ -45,63 +45,63 @@ const Skills = () => {
                 style={{ fill: "url(#blue-gradient)" }}
                 className=""
               />
-              <h2 className="py-3 text-white text-2xl">C++</h2>
+              <h2 className="py-3 text-white text-lg">C++</h2>
             </div>
-            <div className="flex justify-center items-center flex-col border-2 border-solid border-white rounded-lg pt-2 max-w-[200px] bg-mirage">
+            <div className="flex justify-center items-center flex-col border-2 border-solid border-white rounded-lg pt-2 max-w-[250px] bg-mirage">
               <SiCsharp
                 size={75}
                 style={{ fill: "url(#blue-gradient)" }}
                 className="csharp"
               />
-              <h2 className="py-3 text-white  text-2xl">C#</h2>
+              <h2 className="py-3 text-white  text-lg">C#</h2>
             </div>
-            <div className="flex justify-center items-center flex-col border-2 border-solid border-white rounded-lg pt-2 max-w-[200px] bg-mirage">
+            <div className="flex justify-center items-center flex-col border-2 border-solid border-white rounded-lg pt-2 max-w-[250px] bg-mirage">
               <SiReact
                 size={75}
                 style={{ fill: "url(#blue-gradient)" }}
                 className="react"
               />
-              <h2 className="py-3 text-white  text-2xl">React.js</h2>
+              <h2 className="py-3 text-white  text-lg">React.js</h2>
             </div>
-            <div className="flex justify-center items-center flex-col border-2 border-solid border-white rounded-lg pt-2 max-w-[200px] bg-mirage">
+            <div className="flex justify-center items-center flex-col border-2 border-solid border-white rounded-lg pt-2 max-w-[250px] bg-mirage">
               <SiJavascript
                 size={75}
                 style={{ fill: "url(#blue-gradient)" }}
                 className="js"
               />
-              <h2 className="py-3 text-white  text-2xl">JavaScript</h2>
+              <h2 className="py-3 text-white  text-lg">JavaScript</h2>
             </div>
-            <div className="flex justify-center items-center flex-col border-2 border-solid border-white rounded-lg pt-2 max-w-[200px] bg-mirage">
+            <div className="flex justify-center items-center flex-col border-2 border-solid border-white rounded-lg pt-2 max-w-[250px] bg-mirage">
               <SiHtml5
                 size={75}
                 style={{ fill: "url(#blue-gradient)" }}
                 className="html"
               />
-              <h2 className="py-3 text-white  text-2xl">HTML</h2>
+              <h2 className="py-3 text-white  text-lg">HTML</h2>
             </div>
-            <div className="flex justify-center items-center flex-col border-2 border-solid border-white rounded-lg pt-2 max-w-[200px] bg-mirage">
+            <div className="flex justify-center items-center flex-col border-2 border-solid border-white rounded-lg pt-2 max-w-[250px] bg-mirage">
               <SiCss3
                 size={75}
                 style={{ fill: "url(#blue-gradient)" }}
                 className="css"
               />
-              <h2 className="py-3 text-white  text-2xl">CSS</h2>
+              <h2 className="py-3 text-white  text-lg">CSS</h2>
             </div>
-            <div className="flex justify-center items-center flex-col border-2 border-solid border-white rounded-lg pt-2 max-w-[200px] bg-mirage">
+            <div className="flex justify-center items-center flex-col border-2 border-solid border-white rounded-lg pt-2 max-w-[250px] bg-mirage">
               <SiSass
                 size={75}
                 style={{ fill: "url(#blue-gradient)" }}
                 className="sass"
               />
-              <h2 className="py-3 text-white  text-2xl">SASS</h2>
+              <h2 className="py-3 text-white  text-lg">SASS</h2>
             </div>
-            <div className="flex justify-center items-center flex-col border-2 border-solid border-white rounded-lg pt-2 max-w-[200px] bg-mirage">
+            <div className="flex justify-center items-center flex-col border-2 border-solid border-white rounded-lg pt-2 max-w-[250px] bg-mirage">
               <SiBootstrap
                 size={75}
                 style={{ fill: "url(#blue-gradient)" }}
                 className="bootstrap"
               />
-              <h2 className="py-3 text-white  text-2xl">Bootstrap</h2>
+              <h2 className="py-3 text-white  text-lg">Bootstrap</h2>
             </div>
           </div>
         </div>

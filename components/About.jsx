@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-import profile from "../public/static/profile.png";
+import profile from "../public/static/profile.JPG";
 
 const About = () => {
   return (
@@ -11,8 +11,8 @@ const About = () => {
     >
       {/* About content */}
       <div className="flex-1 w-full flex justify-center items-start flex-col relative bg-blueGrey rounded-lg px-4 py-4 md:max-w-[80%] lg:max-w-[50%]">
-        <h1 className="text-redish font-bold text-7xl">About Me</h1>
-        <div className="w-[345px] h-2 bg-white my-5"></div>
+        <h1 className="text-redish font-bold text-6xl md:text-7xl">About Me</h1>
+        <div className="w-[250px] md:w-[345px] h-2 bg-white my-5"></div>
         <p className="text-white font-normal text-base mb-5">
           Hi! I’m Isaac Kang and I’ve recently graduated from UC Riverside with
           a Bachelor’s in Computer Science.

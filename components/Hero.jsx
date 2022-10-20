@@ -7,7 +7,7 @@ const Hero = () => {
       id="home"
     >
       <div className="flex justify-center items-center flex-col h-60 md:h-80 lg:h-90 xl:h-screen">
-        <h1 className="text-white font-black mb-10 text-7xl md:text-8xl md:mb-15 lg:text-9xl lg:mb-20">
+        <h1 className="text-white font-black mb-10 text-6xl md:text-8xl md:mb-15 lg:text-9xl lg:mb-20">
           Isaac Kang
         </h1>
         <p className="text-white font-normal mb-10 text-xl md:text-2xl md:mb-15 lg:text-3xl lg:mb-20">

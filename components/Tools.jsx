@@ -43,7 +43,7 @@ const Tools = () => {
                 style={{ fill: "url(#blue-gradient)" }}
                 className=""
               />
-              <h2 className="py-3 text-white text-2xl">Github</h2>
+              <h2 className="py-3 px-4 text-white text-xl">Github</h2>
             </div>
             <div className="flex justify-center items-center flex-col border-2 border-solid border-white rounded-lg pt-2 max-w-[200px] bg-mirage">
               <SiAmazonaws
@@ -51,7 +51,7 @@ const Tools = () => {
                 style={{ fill: "url(#blue-gradient)" }}
                 className="aws"
               />
-              <h2 className="py-3 text-white text-2xl">AWS</h2>
+              <h2 className="py-3 px-4 text-white text-xl">AWS</h2>
             </div>
             <div className="flex justify-center items-center flex-col border-2 border-solid border-white rounded-lg pt-2 max-w-[200px] bg-mirage">
               <SiNpm
@@ -59,7 +59,7 @@ const Tools = () => {
                 style={{ fill: "url(#blue-gradient)" }}
                 className="npm"
               />
-              <h2 className="py-3 text-white text-2xl">npm</h2>
+              <h2 className="py-3 px-4 text-white text-xl">npm</h2>
             </div>
             <div className="flex justify-center items-center flex-col border-2 border-solid border-white rounded-lg pt-2 max-w-[200px] bg-mirage">
               <SiSlack
@@ -67,7 +67,7 @@ const Tools = () => {
                 style={{ fill: "url(#blue-gradient)" }}
                 className="slack"
               />
-              <h2 className="py-3 text-white text-2xl">Slack</h2>
+              <h2 className="py-3 px-4 text-white text-xl">Slack</h2>
             </div>
             <div className="flex justify-center items-center flex-col border-2 border-solid border-white rounded-lg pt-2 max-w-[200px] bg-mirage">
               <SiJirasoftware
@@ -75,7 +75,7 @@ const Tools = () => {
                 style={{ fill: "url(#blue-gradient)" }}
                 className="jira"
               />
-              <h2 className="py-3 text-white text-2xl">Jira</h2>
+              <h2 className="py-3 px-4 text-white text-xl">Jira</h2>
             </div>
             <div className="flex justify-center items-center flex-col border-2 border-solid border-white rounded-lg pt-2 max-w-[200px] bg-mirage">
               <SiVisualstudiocode
@@ -83,7 +83,7 @@ const Tools = () => {
                 style={{ fill: "url(#blue-gradient)" }}
                 className="vscode"
               />
-              <h2 className="py-3 text-white text-2xl">VSCode</h2>
+              <h2 className="py-3 px-4 text-white text-xl">VSCode</h2>
             </div>
           </div>
         </div>
